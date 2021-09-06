@@ -1,0 +1,11 @@
+<h1>Edit Drone</h1>
+
+<form action="/drones/{{id}}/edit" method="POST">
+    <label></label>
+    <input type="text" name="name" value="{{name}}"/>
+    <label>Author</label>
+    <input type="text" name="propellers" value="{{propellers}}">
+    <label>Description</label>
+    <textarea rows="5" cols="20" name="maxSpeed">{{maxSpeed}}</textarea>
+    <button type="submit">Update</button>
+</form>
